@@ -1,0 +1,10 @@
+name:
+
+on: [push]
+
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: HelloCAA
+        run: echo "Hola, mundo, desde CAA"
